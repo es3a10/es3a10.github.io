@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="utf-8" />
+        <title>Bitácora Personal - Carlos Rodríguez</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">Bitácora Personal </a></h1>
+                <nav><ul>
+                    <li><a href="/category/3d.html">3D</a></li>
+                    <li><a href="/category/general.html">General</a></li>
+                    <li><a href="/category/lyx.html">Lyx</a></li>
+                    <li><a href="/category/maker.html">Maker</a></li>
+                    <li><a href="/category/pelican.html">Pelican</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/parametros-para-el-calculo-de-pasos-para-un-escornabot.html">Parámetros para el cálculo de pasos para un escornabot</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2016-10-28T00:00:00+02:00">
+                Published: vie 28 octubre 2016
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/carlos-rodriguez.html">Carlos Rodríguez</a>
+        </address>
+<p>In <a href="/category/maker.html">Maker</a>.</p>
+<p>tags: <a href="/tag/varios.html">Varios</a> </p>
+</footer><!-- /.post-info --><p>A la hora de calibrar un robot de dos ruedas siempre surge el tema de qué orden hay que darle al robot para que recorra cierta distancia o gire cierto número de grados.</p>
+<p>Para el recorrido recto influye el diámetro de la rueda que estemos usando, y en el giro la distancia entre las ruedas, que al final será el diámetro de la circunferencia que realice el robot mientras gira.</p>
+<p>Vamos a poner el ejemplo del escornabot (modelo placidus) que es el que he montado. Según datos teóricos, el número de pasos es de <strong>64</strong> por <strong>64</strong> de la reductora, por lo que da un total de 4096 pasos por vuelta (para el modelo de motor que tengo recomiendan poner <strong>4076</strong>).</p>
+<p>El diámetro de la rueda es de 72mm y la distancia entre ruedas es de 100mm.</p>
+<img alt="'handout'" src="./img/escornabot.jpg" style="width: 400px;" />
+<p>Con simples reglas de tres y que pi*diametro es una vuelta podemos determinar los pasos que tiene que dar nuestro robot:</p>
+<p>Pasos hacia para desplazarse:   Si 4076 es pix72, entonces 200 será x   Lo que da que x=3603 pasos
+Pasos para girar 90 grados:     Si 4076 es pix72, entonces (pix100)/4   Luego x=1415</p>
+                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/programas-para-modelar-en-3d.html" rel="bookmark"
+                           title="Permalink to Programas para modelar en 3D">Programas para modelar en 3D</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-12-22T00:00:00+01:00">
+                Published: mar 22 diciembre 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/carlos-rodriguez.html">Carlos Rodríguez</a>
+        </address>
+<p>In <a href="/category/maker.html">Maker</a>.</p>
+<p>tags: <a href="/tag/varios.html">Varios</a> </p>
+</footer><!-- /.post-info -->                <p class="first last">Programas para modelar en 3D</p>
+
+                <a class="readmore" href="/programas-para-modelar-en-3d.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/articulo-para-el-diario-de-navarra.html" rel="bookmark"
+                           title="Permalink to Artículo para el diario de Navarra">Artículo para el diario de Navarra</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-10-07T00:00:00+02:00">
+                Published: mié 07 octubre 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/carlos-rodriguez.html">Carlos Rodríguez</a>
+        </address>
+<p>In <a href="/category/maker.html">Maker</a>.</p>
+<p>tags: <a href="/tag/maker.html">Maker</a> </p>
+</footer><!-- /.post-info -->                <p class="first">Artículo Espacio Maker para el Diario de Navarra</p>
+<p class="last">Este año vamos a intentar realizar un espacio Maker en el instituto IESO Bardenas Reales. La idea se presentó como proyecto de innovación y ha sido aceptada. Veremos qué somos capaces de hacer.</p>
+
+                <a class="readmore" href="/articulo-para-el-diario-de-navarra.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/que-vamos-a-hacer-en-el-makespace.html" rel="bookmark"
+                           title="Permalink to ¿Qué vamos a hacer en el makespace?">¿Qué vamos a hacer en el makespace?</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-10-06T00:00:00+02:00">
+                Published: mar 06 octubre 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/carlos-rodriguez.html">Carlos Rodríguez</a>
+        </address>
+<p>In <a href="/category/maker.html">Maker</a>.</p>
+<p>tags: <a href="/tag/maker.html">Maker</a> </p>
+</footer><!-- /.post-info -->                <p class="first last">Inicio de proyecto Makespace Cortes</p>
+
+                <a class="readmore" href="/que-vamos-a-hacer-en-el-makespace.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/insertar-codigo-latex-en-nuestros-articulos-rst.html" rel="bookmark"
+                           title="Permalink to Insertar código latex en nuestros artículos .rst">Insertar código latex en nuestros artículos .rst</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-09-29T00:00:00+02:00">
+                Published: mar 29 septiembre 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/carlos-rodriguez.html">Carlos Rodríguez</a>
+        </address>
+<p>In <a href="/category/pelican.html">Pelican</a>.</p>
+<p>tags: <a href="/tag/latex.html">latex</a> </p>
+</footer><!-- /.post-info -->                <p class="first last">Insertar código <em>latex</em> en un Pelican</p>
+
+                <a class="readmore" href="/insertar-codigo-latex-en-nuestros-articulos-rst.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/mapas-de-google-para-imprimir-en-3d.html" rel="bookmark"
+                           title="Permalink to Mapas de Google para imprimir en 3D">Mapas de Google para imprimir en 3D</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-09-05T00:00:00+02:00">
+                Published: sáb 05 septiembre 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/carlos-rodriguez.html">Carlos Rodríguez</a>
+        </address>
+<p>In <a href="/category/3d.html">3D</a>.</p>
+<p>tags: <a href="/tag/3d.html">3D</a> </p>
+</footer><!-- /.post-info -->                <p class="first last">Imprimir en 3D mapas</p>
+
+                <a class="readmore" href="/mapas-de-google-para-imprimir-en-3d.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/handouts-en-documentos-lyx.html" rel="bookmark"
+                           title="Permalink to Handouts en documentos Lyx">Handouts en documentos Lyx</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-08-21T00:00:00+02:00">
+                Published: vie 21 agosto 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/carlos-rodriguez.html">Carlos Rodríguez</a>
+        </address>
+<p>In <a href="/category/lyx.html">Lyx</a>.</p>
+
+</footer><!-- /.post-info -->                <p class="first last">Handouts en documentos Beamer con Lyx</p>
+
+                <a class="readmore" href="/handouts-en-documentos-lyx.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/como-esta-hecho-el-blog.html" rel="bookmark"
+                           title="Permalink to ¿Cómo está hecho el blog?">¿Cómo está hecho el blog?</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-07-28T00:00:00+02:00">
+                Published: mar 28 julio 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/carlos-rodriguez.html">Carlos Rodríguez</a>
+        </address>
+<p>In <a href="/category/pelican.html">Pelican</a>.</p>
+
+</footer><!-- /.post-info -->                <p class="first last">Github y Pelican para crear el blog</p>
+
+                <a class="readmore" href="/como-esta-hecho-el-blog.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/presentacion-y-proyecto.html" rel="bookmark"
+                           title="Permalink to Presentación y Proyecto">Presentación y Proyecto</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-07-27T00:00:00+02:00">
+                Published: lun 27 julio 2015
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/carlos-rodriguez.html">Carlos Rodríguez</a>
+        </address>
+<p>In <a href="/category/general.html">General</a>.</p>
+
+</footer><!-- /.post-info -->                <p class="first last">Presentación del blog</p>
+
+                <a class="readmore" href="/presentacion-y-proyecto.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+                </ol><!-- /#posts-list -->
+                </section><!-- /#content -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="https://twitter.com/es3a10">twitter</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
