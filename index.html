@@ -25,7 +25,48 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/recetas-de-cacharreo-con-la-raspberry-pi.html">Recetas de cacharreo con la Raspberry Pi</a></h1>
+                    <h1 class="entry-title"><a href="/robot-controlado-por-aplicacion-app-inventor.html">Robot controlado por Aplicación app inventor</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2016-11-14T00:00:00+01:00">
+                Published: lun 14 noviembre 2016
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/carlos-rodriguez.html">Carlos Rodríguez</a>
+        </address>
+<p>In <a href="/category/maker.html">Maker</a>.</p>
+<p>tags: <a href="/tag/robots.html">Robots</a> <a href="/tag/maker.html">Maker</a> </p>
+</footer><!-- /.post-info --><ol class="arabic">
+<li><p class="first">Hola Mundo para probar el módulo HC05</p>
+<blockquote>
+<p>He empezado siguiendo este enlace:</p>
+<p><a class="reference external" href="http://kio4.com/appinventor/9bluetootharduino.htm">Tutorial de arduino con bluetooth por kio4</a></p>
+<p><strong>IMPORTANTE:</strong> Un problema encontrado es que cuando quiero subir el programa arduino si tengo conectados los pines tx y rx al módulo bt falla, por eso cualquier modificación al programa arduino hay que hacerlo con el módulo quitado.</p>
+<p>En mi caso el módulo se llama HC051 y funciona a 57600 baudios, ya que en su día lo configuré así para que funcionará una extensión de Scratch en Python para programar Arduino desde Scratch con <a class="reference external" href="https://github.com/MrYsLab/s2a_fm">S2A</a></p>
+<p>Hice une módulo bt shield, éste va a 9600 baudios y se llama HC-05. Por último otro para zowi, que se llama zowi y va a 19200.</p>
+<p>La aplicación del móvil permite conectarse por Bluetooth al arduino y encender o apagar el led 13 pulsando los botones correspondientes</p>
+</blockquote>
+</li>
+<li><p class="first">Del led a los motores</p>
+<blockquote>
+<p>Bueno, una vez probado el módulo Bluetooth estamos en disposición de programar el robot y la aplicación para su manejo desde el móvil ;-)</p>
+</blockquote>
+</li>
+</ol>
+                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="/recetas-de-cacharreo-con-la-raspberry-pi.html" rel="bookmark"
+                           title="Permalink to Recetas de cacharreo con la Raspberry Pi">Recetas de cacharreo con la Raspberry Pi</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2016-11-04T00:00:00+01:00">
                 Published: vie 04 noviembre 2016
@@ -36,33 +77,11 @@
         </address>
 <p>In <a href="/category/raspberry.html">Raspberry</a>.</p>
 <p>tags: <a href="/tag/raspberry.html">Raspberry</a> </p>
-</footer><!-- /.post-info --><ol class="arabic">
-<li><p class="first">Configurar la raspberry como router</p>
-<blockquote>
-<p>Como en casa el router que tengo no me da buena cobertura por todos los sitios, he decidido poner un repetidor en mitad de casa cuando necesite una mayor cobertura.</p>
-<p>He empezado por ponerlo como punto de acceso y para ello he seguido el tutorial de este enlace:</p>
-<p><a class="reference external" href="http://www.redeszone.net/raspberry-pi/manual-para-configurar-raspberry-pi-como-un-router-wi-fi/">Raspberry Pi como Punto de Acceso</a></p>
-<p>De todas las tarjetas wifi usb que tengo por casa, la única que admite modo AP en una Dlink DWL-G22 con chipset Ralink RT2571W.</p>
-<p>Respecto a los pasos que pone que hay que seguir, he hecho todo igual salvo en la configuración <em>/etc/network/interfaces</em>, que en lugar de poner <em>allow hotplug wlan0</em>, he tenido que poner <em>allow-hotplug wlan0</em></p>
-</blockquote>
-</li>
-<li><p class="first">Configurar sonic-pi en ubuntu</p>
-<blockquote>
-<p>He tenido problema con el jack, la solución la he encontrado en:</p>
-<p><a class="reference external" href="https://www.miskatonic.org/2015/01/17/setting-up-sonic-pi-on-ubuntu/">ConfigurarSonicPi</a></p>
-<p>También hay que tener en cuenta que no arrancará sonic-pi a no ser que tengamos iniciado el jack.
-Para ello tenemos que arrancarlo desde el terminal ejecutando:<em>qjackctl</em> y dándole a <em>iniciar</em>.
-Si no nos funcionara, nos vamos a <em>setup</em> y seleccionamos interfaz: <em>hw:PCH,0</em>
-Si al cerrar todo no tenemos acceso a los dispositivos de audio, desde la terminal: <em>pulseaudio</em></p>
-</blockquote>
-</li>
-</ol>
-                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+</footer><!-- /.post-info -->                <p class="first last">Recetas de cacharreo con la Raspberry Pi</p>
+
+                <a class="readmore" href="/recetas-de-cacharreo-con-la-raspberry-pi.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
 
             <li><article class="hentry">
                 <header>
@@ -248,30 +267,11 @@ Si al cerrar todo no tenemos acceso a los dispositivos de audio, desde la termin
                 <a class="readmore" href="/como-esta-hecho-el-blog.html">read more</a>
                 </div><!-- /.entry-content -->
             </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/presentacion-y-proyecto.html" rel="bookmark"
-                           title="Permalink to Presentación y Proyecto">Presentación y Proyecto</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2015-07-27T00:00:00+02:00">
-                Published: lun 27 julio 2015
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/carlos-rodriguez.html">Carlos Rodríguez</a>
-        </address>
-<p>In <a href="/category/general.html">General</a>.</p>
-
-</footer><!-- /.post-info -->                <p class="first last">Presentación del blog</p>
-
-                <a class="readmore" href="/presentacion-y-proyecto.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
                 </ol><!-- /#posts-list -->
+<p class="paginator">
+    Page 1 / 2
+        <a href="/index2.html">&raquo;</a>
+</p>
                 </section><!-- /#content -->
         <section id="extras" class="body">
                 <div class="blogroll">
